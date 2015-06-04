@@ -1,0 +1,5 @@
+vhdl work "C:\Users\sinan\verilog\ultrasonic\counter.vhd"
+vhdl work "C:\Users\sinan\verilog\ultrasonic\Trigger_generator.vhd"
+vhdl work "C:\Users\sinan\verilog\ultrasonic\Distance_calculation.vhd"
+vhdl work "C:\Users\sinan\verilog\ultrasonic\BCD_converter.vhd"
+vhdl work "C:\Users\sinan\verilog\ultrasonic\Range_sensor.vhd"

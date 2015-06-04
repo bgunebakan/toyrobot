@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/sinan/verilog/ultrasonic/Range_sensor.xst" -ofn "C:/Users/sinan/verilog/ultrasonic/Range_sensor.syr" 

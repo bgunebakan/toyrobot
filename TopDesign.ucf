@@ -1,0 +1,19 @@
+
+
+NET "clk" LOC = B8;
+NET "topsegA" LOC = L14;
+NET "topsegB" LOC = H12;
+NET "topsegC" LOC = N14;
+NET "topsegD" LOC = N11;
+NET "topsegE" LOC = P12;
+NET "topsegF" LOC = L13;
+NET "topsegG" LOC = M12;
+NET "topselDispC" LOC = J12;
+NET "topselDispD" LOC = F12;
+NET "pulse_pin" LOC = A9;
+NET "Trigger_pin" LOC = B9;
+
+# PlanAhead Generated physical constraints 
+
+NET "topselDispA" LOC = M13;
+NET "topselDispB" LOC = K14;

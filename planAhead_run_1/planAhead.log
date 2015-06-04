@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Dec 18 13:28:08 2014
+# Process ID: 3816
+# Log file: C:/Users/sinan/verilog/ultrasonic/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/sinan/verilog/ultrasonic/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/sinan/verilog/ultrasonic/pa.fromHdl.tcl
+# create_project -name ultrasonic -dir "C:/Users/sinan/verilog/ultrasonic/planAhead_run_1" -part xc3s100ecp132-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TopDesign.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/sinan/verilog/ultrasonic/TopDesign.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {counter.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Trigger_generator.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Distance_calculation.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BCD_converter.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Seven_Segment_Display/segmentdecoder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Seven_Segment_Display/clock_divider.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Range_sensor.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Seven_Segment_Display/segmentdriver.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TopDesign.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top TopDesign $srcset
+# add_files [list {TopDesign.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/counter.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/Trigger_generator.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/Distance_calculation.vhd" into library work
+WARNING: [HDL 9-946] Actual for formal port reset is neither a static name nor a globally static expression [C:/Users/sinan/verilog/ultrasonic/Distance_calculation.vhd:52]
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/BCD_converter.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/Seven_Segment_Display/segmentdecoder.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/Seven_Segment_Display/clock_divider.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/Range_sensor.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/Seven_Segment_Display/segmentdriver.vhd" into library work
+Parsing VHDL file "C:/Users/sinan/verilog/ultrasonic/TopDesign.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/sinan/verilog/ultrasonic/TopDesign.ucf]
+Finished Parsing UCF File [C:/Users/sinan/verilog/ultrasonic/TopDesign.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e533cd1a
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports topsegA]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports topsegB]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports topsegC]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports topsegD]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports topsegE]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports topsegF]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports topsegG]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports topselDispA]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports topselDispA]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports topselDispA]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports topselDispB]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports topselDispC]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports topselDispD]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports pulse_pin]
+endgroup
+startgroup
+set_property package_pin B9 [get_ports Trigger_pin]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/sinan/verilog/ultrasonic\planAhead_pid3816.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Dec 18 13:42:07 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

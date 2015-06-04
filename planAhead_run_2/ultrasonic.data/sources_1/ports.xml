@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="pulse_pin" Dir="IN"/>
+		<Port Id="Trigger_pin" Dir="OUT"/>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="topselDispA" Dir="OUT"/>
+		<Port Id="topselDispB" Dir="OUT"/>
+		<Port Id="topselDispC" Dir="OUT"/>
+		<Port Id="topselDispD" Dir="OUT"/>
+		<Port Id="topsegA" Dir="OUT"/>
+		<Port Id="topsegB" Dir="OUT"/>
+		<Port Id="topsegC" Dir="OUT"/>
+		<Port Id="topsegD" Dir="OUT"/>
+		<Port Id="topsegE" Dir="OUT"/>
+		<Port Id="topsegF" Dir="OUT"/>
+		<Port Id="topsegG" Dir="OUT"/>
+	</Ifc>
+</Interface>
+
